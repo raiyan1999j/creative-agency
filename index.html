@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- vendors -->
+    <link rel="stylesheet" href="./vendors/css/col.css">
+    <link rel="stylesheet" href="./vendors/css/normalize.css">
+    <!-- resource -->
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/tailwind.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav-area start-->
+    <section class="nav-area clearfix z-10 md:d-first:w-[90rem] md:m-third:w-screen">
+        <nav class="h-32 w-full flex flex-row items-center justify-between fixed top-0 z-10">
+            <a href="#" class="w-40 h-[4.37rem] float-left pl-[6.19rem] md:d-first:w-60">
+                <img src="./resource/css/image/logo.png" class="h-full w-full object-contain" alt="logo">
+            </a>
+            <ul class="float-right m-0 pr-[17.87rem] md:m-second:hidden">
+                <li class="float-left pr-[4.06rem]"><a href="#home" class="text-slate-100 hover:text-yellow-400 transition-all duration-500 ease-in">Home</a></li>
+                <li class="float-left pr-[4.06rem]"><a href="#page" class="text-slate-100 hover:text-yellow-400 transition-all duration-500 ease-in">Page</a></li>
+                <li class="float-left pr-[4.06rem]"><a href="#portfolio" class="text-slate-100 hover:text-yellow-400 transition-all duration-500 ease-in">Portfolio</a></li>
+                <li class="float-left pr-[4.06rem]"><a href="#blog" class="text-slate-100 hover:text-yellow-400 transition-all duration-500 ease-in">Blog</a></li>
+                <li class="float-left"><a href="#contact" class="text-slate-100 hover:text-yellow-400 transition-all duration-500 ease-in">Contact</a></li>
+            </ul>
+            <div class="hummer hidden md:m-second:block md:m-second:mr-28">
+                <div class="hummer-btn"></div>
+            </div>
+        </nav>
+        <!-- menuBar-area start -->
+        <section class="menuBar w-full h-full bg-black opacity-90 fixed top-36 z-10 hidden md:m-third:w-screen">
+            <ul class="translate-y-[50%]">
+                <li class="text-white text-4xl font-semibold w-full text-center py-5 hover:text-yellow-400 transition-all ease-in duration-300"><a href="#home">Home</a></li>
+                <li class="text-white text-4xl font-semibold w-full text-center py-5 hover:text-yellow-400 transition-all ease-in duration-300"><a href="#page">Page</a></li>
+                <li class="text-white text-4xl font-semibold w-full text-center py-5 hover:text-yellow-400 transition-all ease-in duration-300"><a href="#portfolio">Portfolio</a></li>
+                <li class="text-white text-4xl font-semibold w-full text-center py-5 hover:text-yellow-400 transition-all ease-in duration-300"><a href="#blog">Blog</a></li>
+                <li class="text-white text-4xl font-semibold w-full text-center py-5 hover:text-yellow-400 transition-all ease-in duration-300"><a href="#contact">Contact</a></li>
+            </ul>
+        </section>
+        <!-- menuBar-area finish -->
+    </section>
+    <!-- nav-area finish -->
+    <!-- header-area start -->
+    <section class="header-area bg-yellow-400 bg-no-repeat bg-center bg-cover clearfix mt-32 md:d-first:w-[90rem]" id="home">
+        <div class="division pt-[10.62rem] pb-[20.62rem] md:d-first:w-[72rem]">
+            <div class="row">
+                <div class="col span_1_of_2">
+                    <div class="header-image w-[29.37rem] h-[28.75rem] md:m-fourth:translate-x-[100%] ">
+                        <img src="./resource/css/image/like.png" class="h-full w-full" alt="like">
+                    </div>
+                </div>
+                <div class="col span_1_of_2">
+                    <div class="w-[39.12rem] text-center -translate-x-20 md:m-fourth:translate-x-[50%] "> 
+                        <h1 class="text-[8.16rem] text-center font-black leading-[5.94rem] uppercase tracking-[-1rem] font-[sans-serif] mb-11 md:m-first:text-[4.75rem] md:m-first:tracking-[-0.5rem]">
+                            Digital creative agency
+                        </h1>
+                        <p class="capitalize text-center font-normal text-[1.21rem] font-[sans-serif] mb-[3.12rem] md:m-third:text-2xl">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </p>
+                        <button class="bg-black text-white skew-x-[20deg] rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl py-4 px-7 uppercase text-[1.18rem] font-black font-[sans-serif] hover:bg-white hover:text-black transition-all ease-in duration-500">
+                            Know more
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header-area finish -->
+    <!-- menu-area start -->
+    <section class="menu-area clearfix md:d-first:w-[90rem]" id="page">
+        <div class="division pt-[9.25rem] md:d-first:w-[72rem]">
+            <h2 class="text-white text-[3.49rem] font-black font-[sans-serif] uppercase text-center tracking-[-0.37rem]">
+                You drem.
+                <span class="text-yellow-400">we design</span>
+            </h2>
+            
+            <p class="text-center text-[#868686] text-[1.06rem] font-normal font-[sans-serif] w-[61.37rem] mx-auto md:m-second:text-2xl">
+                orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.
+            </p>
+        
+            <div class="flex flex-row justify-between mt-8 mb-[5.25rem] md:m-second:flex-col md:m-second:items-center">
+                <div class="w-[22.18rem] md:d-first:w-[18.47rem]">
+                    <div class="h-[22.18rem] w-[22.18rem] pb-10 md:d-first:h-[18.78rem] md:d-first:w-[18.78rem]">
+                        <img src="./resource/css/image/menu-1.png" alt="menu-1" class="h-full w-full rounded-full">
+                    </div>
+                    <div class="text-center text-white">
+                        <h3 class="text-[1.87rem] font-bold font-[sans-serif] uppercase pb-[2.19rem]">Branding</h3>
+                        <p class="text-[#868686] font-normal text-[1.06rem] text-center tracking-wider md:m-second:text-2xl">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </p>
+                    </div>
+                </div>
+                <!-- second -->
+                <div class="w-[22.18rem] md:d-first:w-[18.47rem] md:m-second:my-16">
+                    <div class="h-[22.18rem] w-[22.18rem] pb-10 md:d-first:h-[18.78rem] md:d-first:w-[18.78rem]">
+                        <img src="./resource/css/image/menu-2.png" alt="menu-1" class="h-full w-full rounded-full">
+                    </div>
+                    <div class="text-center text-white">
+                        <h3 class="text-[1.87rem] font-bold font-[sans-serif] uppercase pb-[2.19rem]">Graphic design</h3>
+                        <p class="text-[#868686] font-normal text-[1.06rem] text-center tracking-wider md:m-second:text-2xl">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </p>
+                    </div>
+                </div>
+                <!-- third -->
+                <div class="w-[22.18rem] md:d-first:w-[18.47rem]">
+                    <div class="h-[22.18rem] w-[22.18rem] pb-10 md:d-first:h-[18.78rem] md:d-first:w-[18.78rem]">
+                        <img src="./resource/css/image/menu-3.png" alt="menu-1" class="h-full w-full rounded-full">
+                    </div>
+                    <div class="text-center text-white">
+                        <h3 class="text-[1.87rem] font-bold font-[sans-serif] uppercase pb-[2.19rem]">creative ideas</h3>
+                        <p class="text-[#868686] font-normal text-[1.06rem] text-center tracking-wider md:m-second:text-2xl">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pb-[6.25rem]">
+            <button class="bg-yellow-400 text-black skew-x-[20deg] rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl py-4 px-7 uppercase text-[1.18rem] font-black font-[sans-serif] hover:bg-white hover:text-yellow-400 transition-all duration-500 ease-in">
+                Know more
+            </button>
+        </div>
+        </div>
+    </section>
+    <!-- menu-area finish -->
+    <!-- history-area start -->
+    <section class="history-area bg-yellow-400 clearfix md:d-first:w-[90rem]" id="portfolio">
+        <div class="division text-center pt-[6.25rem] md:d-first:w-[72rem]">
+            <h2 class="font-[sans-serif] font-black text-[3.49rem] uppercase tracking-[-0.37rem]">
+                our creative work
+            </h2>
+            <p class="w-[61.56rem] mx-auto font-normal text-[1.06rem] font-[sans-serif] pt-[3.12rem] md:m-second:text-2xl" style="word-spacing: 6px;">
+                orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.
+            </p>
+        </div>
+        <div class="division pt-[3.75rem] md:d-first:w-[72rem]">
+            <div class="flex flex-row justify-center">
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-1.png" alt="history-1" class="h-full w-full">
+                </div>
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-2.png" alt="history-2" class="h-full w-full">
+                </div>
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-3.png" alt="history-3" class="h-full w-full">
+                </div>
+            </div>
+            <!-- second -->
+            <div class="flex flex-row justify-center">
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-4.png" alt="history-4" class="h-full w-full">
+                </div>
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-5.png" alt="history-5" class="h-full w-full">
+                </div>
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-6.png" alt="history-6" class="h-full w-full">
+                </div>
+            </div>
+            <!-- third -->
+            <div class="flex flex-row justify-center">
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-7.png" alt="history-7" class="h-full w-full">
+                </div>
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-8.png" alt="history-8" class="h-full w-full">
+                </div>
+                <div class="h-[17.19rem] w-[24.37rem] md:d-first:h-[14.56rem] md:d-first:w-[20.64rem]">
+                    <img src="./resource/css/image/history-9.png" alt="history-9" class="h-full w-full">
+                </div>
+            </div>
+            <div class="text-center pt-[2.75rem] pb-[6.25rem] ">
+                <button class="bg-black text-white skew-x-[20deg] rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl py-4 px-7 uppercase text-[1.18rem] font-black font-[sans-serif] hover:bg-white hover:text-yellow-400 transition-all duration-500 ease-in">
+                    Know more
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- history-area finish -->
+    <!-- sponser-area start -->
+    <section class="sponser-area clearfix md:d-first:w-[90rem]" id="sponser">
+        <div class="division pt-[6.19rem] pb-[7.81rem] flex justify-center md:d-first:w-[72rem]">
+            <ul class="clearfix">
+                <li class="float-left pr-24 blur-[2px] hover:blur-none transition-all">
+                    <a href="#" class="h-[9.06rem] w-[9.06rem] bg-no-repeat inline-block"></a>
+                </li>
+                <li class="float-left pr-24 blur-[2px] hover:blur-none transition-all">
+                    <a href="#" class="h-[9.06rem] w-[9.06rem] bg-no-repeat inline-block"></a>
+                </li>
+                <li class="float-left pr-24 blur-[2px] hover:blur-none transition-all">
+                    <a href="#" class="h-[9.06rem] w-[9.06rem] bg-no-repeat inline-block"></a>
+                </li>
+                <li class="float-left pr-24 blur-[2px] hover:blur-none transition-all">
+                    <a href="#" class="h-[9.06rem] w-[9.06rem] bg-no-repeat inline-block"></a>
+                </li>
+                <li class="float-left blur-[2px] hover:blur-none transition-all">
+                    <a href="#" class="h-[9.06rem] w-[9.06rem] bg-no-repeat inline-block"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- sponser-area finish -->
+    <!-- blog-area start -->
+    <section class="blog-area bg-contain bg-no-repeat text-white clearfix md:d-first:w-[90rem]" id="blog">
+        <div class="division md:d-first:w-[72rem]">
+        <h2 class="text-center text-[3.49rem] font-black font-[sans-serif] uppercase tracking-tighter pb-14">
+            our user's review
+        </h2>
+        <p class="text-center font-normal w-[51.56rem] mx-auto pb-[4.37rem] md:m-second:text-2xl">
+            orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.
+        </p>
+    </div>
+    <div class="division md:d-first:w-[72rem]">
+        <div class="flex flex-row justify-center space-x-[2.12rem] pb-[4.31rem] md:m-first:flex-col md:m-first:items-center md:m-first:space-y-[2.12rem] md:m-first:space-x-0">
+            <div class=" w-[22.81rem] bg-black md:m-second:w-[31.25rem]">
+                <div class="h-[2.06rem] w-[3.06rem] translate-x-[19rem] translate-y-[1.12rem] md:m-second:translate-x-[28rem]">
+                    <img src="./resource/css/image/blockQuote.png" alt="blockQuote" class="h-full w-full">
+                </div>
+                <ul class="pl-8 pt-9">
+                    <li class="float-left h-[4.44rem] w-[4.44] rounded-full md:m-second:h-[6.66rem] md:m-second:w-[6.66rem]">
+                        <img src="./resource/css/image/profile.png" alt="profile" class="rounded-full h-full w-full">
+                    </li>
+                    <li class="float-left pl-4 md:m-second:pt-3">
+                        <h4 class="font-bold text-[1.56rem] capitalize md:m-second:text-3xl">David smith</h4>
+                        <p class="font-medium text-[1.06rem] md:m-second:text-2xl">Graphic designer</p>
+                    </li>
+                </ul>
+                <div class="w-[17.35rem] mx-auto md:m-second:w-96">
+                <p class=" pt-28 text-[#808080] font-normal text-[0.94rem] mx-auto md:m-second:text-2xl md:m-second:pt-36">
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.Lorem ipsum dolor sit amet, consect adipisicing elit.
+                </p>
+                <div class="pt-[2.19rem] pb-[2.12rem]">
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            </div>
+            <!-- second -->
+            <div class=" w-[22.81rem] bg-black md:m-second:w-[31.25rem]">
+                <div class="h-[2.06rem] w-[3.06rem] translate-x-[19rem] translate-y-[1.12rem] md:m-second:translate-x-[28rem]">
+                    <img src="./resource/css/image/blockQuote.png" alt="blockQuote" class="h-full w-full">
+                </div>
+                <ul class="pl-8 pt-9">
+                    <li class="float-left h-[4.44rem] w-[4.44] rounded-full md:m-second:h-[6.66rem] md:m-second:w-[6.66rem]">
+                        <img src="./resource/css/image/profile.png" alt="profile" class="rounded-full h-full w-full">
+                    </li>
+                    <li class="float-left pl-4 md:m-second:pt-3">
+                        <h4 class="font-bold text-[1.56rem] capitalize md:m-second:text-3xl">David smith</h4>
+                        <p class="font-medium text-[1.06rem] md:m-second:text-2xl">Graphic designer</p>
+                    </li>
+                </ul>
+                <div class="w-[17.35rem] mx-auto md:m-second:w-96">
+                <p class=" pt-28 text-[#808080] font-normal text-[0.94rem] mx-auto md:m-second:text-2xl md:m-second:pt-36">
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.Lorem ipsum dolor sit amet, consect adipisicing elit.
+                </p>
+                <div class="pt-[2.19rem]">
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            </div>
+            <!-- third -->
+            <div class=" w-[22.81rem] bg-black md:m-second:w-[31.25rem]">
+                <div class="h-[2.06rem] w-[3.06rem] translate-x-[19rem] translate-y-[1.12rem] md:m-second:translate-x-[28rem]">
+                    <img src="./resource/css/image/blockQuote.png" alt="blockQuote" class="h-full w-full">
+                </div>
+                <ul class="pl-8 pt-9">
+                    <li class="float-left h-[4.44rem] w-[4.44rem] rounded-full md:m-second:h-[6.66rem] md:m-second:w-[6.66rem]">
+                        <img src="./resource/css/image/profile.png" alt="profile" class="rounded-full h-full w-full">
+                    </li>
+                    <li class="float-left pl-4 md:m-second:pl-7 md:m-second:pt-3">
+                        <h4 class="font-bold text-[1.56rem] capitalize md:m-second:text-3xl">David smith</h4>
+                        <p class="font-medium text-[1.06rem] md:m-second:text-2xl">Graphic designer</p>
+                    </li>
+                </ul>
+                <div class="w-[17.35rem] mx-auto md:m-second:w-96">
+                <p class=" pt-28 text-[#808080] font-normal text-[0.94rem] mx-auto md:m-second:text-2xl md:m-second:pt-36">
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.Lorem ipsum dolor sit amet, consect adipisicing elit.
+                </p>
+                <div class="pt-[2.19rem]">
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star text-yellow-400"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="pb-[6.88rem] text-center">
+            <button class="bg-yellow-400 text-black skew-x-[20deg] rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl py-4 px-7 uppercase text-[1.18rem] font-black font-[sans-serif] hover:bg-white hover:text-yellow-400 transition-all duration-500 ease-in">
+                Know more
+            </button>
+        </div>
+    </div>
+    </section>
+    <!-- blog-area finish -->
+    <!-- contact-area start -->
+    <section class="contact-area bg-yellow-400 clearfix md:d-first:w-[90rem]" id="contact">
+        <div class="division md:d-first:w-[72rem]">
+            <h2 class="uppercase tracking-[-0.4rem] font-black text-[3.49rem] text-center">
+                Get in touch
+            </h2>
+        </div>
+        <div class="division md:d-first:w-[72rem]">
+            <div class="row">
+                <div class="col span_1_of_2">
+                    <ul class="w-[28.12rem]">
+                        <li class="border-b-2 border-dotted border-black mb-6 md:m-second:border-b-8">
+                            <h4 class="uppercase font-bold text-[1.18rem] pb-[1.87rem] md:m-second:text-2xl">Adress :</h4>
+                            <p class="capitalize font-semibold pb-[1.62rem] md:m-second:text-2xl">
+                                123,main street,new york,dhaka-1216
+                            </p>
+                        </li>
+                        <li class="border-b-2 border-dotted border-black mb-6 md:m-second:border-b-8">
+                            <h4 class="uppercase font-bold text-[1.18rem] pb-[1.87rem] md:m-second:text-2xl">Call us :</h4>
+                            <p class="capitalize font-semibold pb-[1.62rem] md:m-second:text-2xl">
+                                +123 456 789,+798 645 312
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="uppercase font-bold text-[1.18rem] pb-[1.87rem] md:m-second:text-2xl">email :</h4>
+                            <p class="capitalize font-semibold pb-[1.62rem] md:m-second:text-2xl">
+                                placegmail@gmil.com
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col span_1_of_2">
+                    <form action="#" class="clearfix">
+                        <label for="name" class="float-left pr-6 pb-5">
+                            <input type="text" placeholder="Name" class="bg-black w-[19.62rem] h-[2.62rem] rounded-xl border-none placeholder:text-[#808080] placeholder:pl-8 md:m-second:h-14 md:m-second:w-96 md:m-second:placeholder:text-3xl">
+                        </label>
+                        <label for="Email" class="float-left pb-5">
+                            <input type="email" placeholder="Email" class="bg-black w-[19.62rem] h-[2.62rem] rounded-xl border-none placeholder:text-[#808080] placeholder:pl-8 md:m-second:h-14 md:m-second:w-96 md:m-second:placeholder:text-3xl">
+                        </label>
+                        <label for="subject" class="float-left pr-6 pb-5">
+                            <input type="text" placeholder="Subject" class="bg-black w-[19.62rem] h-[2.62rem] rounded-xl border-none placeholder:text-[#808080] placeholder:pl-8 md:m-second:h-14 md:m-second:w-96 md:m-second:placeholder:text-3xl">
+                        </label>
+                        <label for="phone" class="float-left pb-5">
+                            <input type="text" placeholder="phone" class="bg-black w-[19.62rem] h-[2.62rem] rounded-xl border-none placeholder:text-[#808080] placeholder:pl-8 md:m-second:h-14 md:m-second:w-96 md:m-second:placeholder:text-3xl">
+                        </label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Message" class="bg-black rounded-xl border-none placeholder:text-[#808080] placeholder:pl-8 placeholder:pt-5 w-[40.75rem] h-[13.5rem] md:d-first:w-[34.52rem] md:m-second:placeholder:text-3xl"></textarea>
+
+                        <button class="bg-black text-white ml-2 skew-x-[20deg] rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl py-4 px-[3.37rem] uppercase text-[1.18rem] font-black font-[sans-serif] hover:bg-white hover:text-yellow-400 transition-all duration-500 ease-in">
+                            Submit
+                        </button>
+                      
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-area finish -->
+    <!-- servic-area start -->
+    <section class="service-area bg-no-repeat bg-cover bg-center clearfix md:d-first:w-[90rem]">
+        <div class="division md:d-first:w-[72rem]">
+            <ul class="clearfix text-white py-[6.37rem]">
+                <li class="float-left pr-36 md:m-first:float-none md:m-first:pb-36 md:m-second:float-none md:m-second:pb-36 pl-24">
+                    <a href="#">
+                        <img src="./resource/css/image/logo.png" alt="logo">
+                    </a>
+                    <p class="text-[#808080] font-normal text-[1.06rem] w-[17.81rem] pt-[3.12rem] md:m-second:text-2xl md:m-second:w-3/4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam velit sequi labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam velit sequi labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam velit sequi labore.
+                    </p>
+                </li>
+                <li class="float-left pr-36 md:m-first:float-none md:m-first:pb-36 md:m-second:float-none md:m-second:pb-36 pl-24">
+                    <h4 class="font-bold text-[1.18rem] pb-14 uppercase md:m-second:text-4xl">Pages</h4>
+                    <a href="#" class="block pb-[1.87rem] font-normal md:m-second:text-3xl md:m-second:inline">How to works</a>
+                    <a href="#" class="block pb-[1.87rem] md:m-second:text-3xl md:m-second:inline md:m-second:pl-5">About us</a>
+                    <a href="#" class="block pb-[1.87rem] md:m-second:text-3xl md:m-second:inline md:m-second:pl-5">Contact us</a>
+                    <a href="#" class="block md:m-second:text-3xl md:m-second:inline md:m-second:pl-5">Media</a>
+                </li>
+                <li class="float-left pr-36 md:m-first:float-none md:m-first:pb-36 md:m-second:float-none md:m-second:pb-36 pl-24">
+                    <h4 class="font-bold text-[1.18rem] pb-14 uppercase md:m-second:text-4xl">Service</h4>
+                    <a href="#" class="block pb-[1.87rem] font-normal md:m-second:text-3xl md:m-second:inline">How to works</a>
+                    <a href="#" class="block pb-[1.87rem] md:m-second:text-3xl md:m-second:inline md:m-second:pl-5">About us</a>
+                    <a href="#" class="block pb-[1.87rem] md:m-second:text-3xl md:m-second:inline md:m-second:pl-5">Contact us</a>
+                    <a href="#" class="block md:m-second:text-3xl md:m-second:inline md:m-second:pl-5">Media</a>
+                </li>
+                <li class="float-left md:m-first:float-none md:m-first:pb-36 md:m-second:float-none md:m-second:pb-36 pl-24">
+                    <h4 class="font-bold text-[1.18rem] pb-14 uppercase md:m-second:text-4xl">Follow us on</h4>
+                    <a href="#" class="pr-3">
+                        <i class="fa-brands fa-google-plus-g text-yellow-400 text-3xl"></i>
+                    </a>
+                    <a href="#" class="pr-3">
+                        <i class="fa-brands fa-pinterest-p text-yellow-400 text-3xl"></i>
+                    </a>
+                    <a href="#" class="pr-3">
+                        <i class="fa-brands fa-facebook-f text-yellow-400 text-3xl"></i>
+                    </a>
+                    <a href="#" class="pr-3">
+                        <i class="fa-brands fa-twitter text-yellow-400 text-3xl"></i>
+                    </a>
+                    <a href="#" class="pr-3">
+                        <i class="fa-brands fa-instagram text-yellow-400 text-3xl"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- service-area finish -->
+    <!-- footer-area start -->
+    <section class="footer-area bg-yellow-400 clearfix md:d-first:w-[90rem]">
+        <div class="division text-center md:d-first:w-[72rem]">
+            <h4 class="text-xl font-bold font-[sans-serif] uppercase text-black py-10">
+                Copyright &#169; Lorem ipsum dolor sit amet.
+            </h4>
+        </div>
+    </section>
+    <!-- footer-area finish -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./vendors/script/html5shiv.min.js"></script>
+    <script src="./vendors/script/respond.min.js"></script>
+    <script src="./vendors/script/selectivizr.js"></script>
+    <script src="./resource/script/main.js"></script>
+</body>
+</html>

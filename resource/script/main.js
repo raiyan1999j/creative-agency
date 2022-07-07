@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".hummer").click(function(){$(this).hasClass("open")?$(this).removeClass("open"):$(this).addClass("open"),$(".menuBar").animate({width:"toggle"})}),$(".menuBar li a").click(function(){$(".menuBar").animate({width:"toggle"}),$(".hummer").removeClass("open")})})

@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ============= */
+/* basic */
+/* ============ */
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+body{
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ============= */
+/* reuseable-code */
+/* ============ */
+section{
+    width:106.25rem;
+    margin:0 auto;
+}
+.division{
+    width:85rem;
+    margin:0 auto;
+}
+.clearfix::before,
+.clearfix::after{
+    content:'';
+    clear:both;
+    display: block;
+}
+/* ============= */
+/* nav-area */
+/* ============ */
+nav,.sponser-area,.service-area{
+    background:url('./image/menu-bg-1.png');
+}
+/* menu-button */
+.hummer{
+    position:relative;
+    height:50px;
+    width:50px;
+    margin-right:50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transform:translateY(20px);
+    display: none;
+}
+.hummer-btn{
+    height:2px;
+    width:40px;
+    background:dodgerblue;
+    border-radius:12px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+.hummer-btn:before,
+.hummer-btn:after{
+    content:'';
+    height:2px;
+    width:40px;
+    background:dodgerblue;
+    border-radius:12px;
+    position:absolute;
+    transition:all 0.5s;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+.hummer-btn:before{
+    transform:translateY(-500%);
+    -webkit-transform:translateY(-500%);
+    -moz-transform:translateY(-500%);
+    -ms-transform:translateY(-500%);
+    -o-transform:translateY(-500%);
+}
+.hummer-btn:after{
+    transform:translateY(500%);
+    -webkit-transform:translateY(500%);
+    -moz-transform:translateY(500%);
+    -ms-transform:translateY(500%);
+    -o-transform:translateY(500%);
+}
+.hummer.open .hummer-btn{
+    transform:translateX(-100%);
+    background:transparent;
+    transition:all 0.5s;
+    -webkit-transform:translateX(-100%);
+    -moz-transform:translateX(-100%);
+    -ms-transform:translateX(-100%);
+    -o-transform:translateX(-100%);
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+.hummer.open .hummer-btn:before{
+    transform:rotate(60deg) translate(20px,-35px);
+    transition:all 0.5s;
+    -webkit-transform:rotate(60deg) translate(20px,-35px);
+    -moz-transform:rotate(60deg) translate(20px,-35px);
+    -ms-transform:rotate(60deg) translate(20px,-35px);
+    -o-transform:rotate(60deg) translate(20px,-35px);
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+.hummer.open .hummer-btn:after{
+    transform:rotate(120deg) translate(-20px,-35px);
+    transition:all 0.5s;
+    -webkit-transform:rotate(120deg) translate(-20px,-35px);
+    -moz-transform:rotate(120deg) translate(-20px,-35px);
+    -ms-transform:rotate(120deg) translate(-20px,-35px);
+    -o-transform:rotate(120deg) translate(-20px,-35px);
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+/* ============= */
+/* header-area */
+/* ============ */
+.header-area{
+    background-image:url('./image/world-map.png');
+}
+/* ============= */
+/* menu-area */
+/* ============ */
+.menu-area{
+    background:url('./image/menu-background.png');
+    background-size:cover;
+}
+.menu-area h2,.history-area h2,.blog-area h2{
+    word-spacing: -0.06rem;
+}
+/* ============= */
+/* sponser-area */
+/* ============ */
+.sponser-area ul li a{
+    background-image:url('./image/sponser.png');
+}
+.sponser-area ul li:nth-child(1) a{
+    background-position:7% 40%;
+}
+.sponser-area ul li:nth-child(2) a{
+    background-position:30% 40%;
+}
+.sponser-area ul li:nth-child(3) a{
+    background-position:52% 40%;
+}
+.sponser-area ul li:nth-child(4) a{
+    background-position:75% 40%;
+}
+.sponser-area ul li:nth-child(5) a{
+    background-position:98% 40%;
+}
+/* ============= */
+/* blog-area */
+/* ============ */
+.blog-area{
+    background:url('./image/menu-bg-2.png');
+}
